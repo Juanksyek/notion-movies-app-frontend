@@ -5,7 +5,7 @@ import { BooksService } from '../services/books.service';
 @Component({
   selector: 'app-search',
   templateUrl: './search.component.html',
-  styleUrls: ['./search.component.css']
+  styleUrls: ['./search.component.sass']
 })
 export class SearchComponent {
   searchType: string = 'movie'; // 'movie' or 'book'
